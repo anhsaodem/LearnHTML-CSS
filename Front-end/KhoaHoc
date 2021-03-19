@@ -1,0 +1,16 @@
+HTML: La nhung the dung de cau hinh nen trang web
+1.Cau truc cua the Html:
+	+ The html bao
+		+ doctype -> xac dinh version html: Html 5 
+		+ The head dong mo
+			+ the title-> tieu de
+			+ cac the meta -> the de danh dau cho trang web
+				+ meta - charset: Bo ky tu (Tieng viet,tieng anh - utf-8)
+				+ <meta name="viewport" ..> : Chieu rong web,che do zoom, responsive (copy paste)
+				+ meta name = robots : index,follow -> google co vao trang web xem ko
+				+ meta theme-color: Mau cua thanh tabar tren web
+				+ name="description" : Hien thi luc client search google
+				+ property='og:image',property="og:url" : link fb khi share
+
+
+		+ The body dong mo
