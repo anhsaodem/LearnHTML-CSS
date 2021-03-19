@@ -1,16 +1,81 @@
 HTML: La nhung the dung de cau hinh nen trang web
 1.Cau truc cua the Html:
 	+ The html bao
-		+ doctype -> xac dinh version html: Html 5 
-		+ The head dong mo
-			+ the title-> tieu de
-			+ cac the meta -> the de danh dau cho trang web
+		(+) doctype -> xac dinh version html: Html 5 
+		(+) The head dong mo
+			- the title-> tieu de
+			- cac the meta -> the de danh dau cho trang web
 				+ meta - charset: Bo ky tu (Tieng viet,tieng anh - utf-8)
 				+ <meta name="viewport" ..> : Chieu rong web,che do zoom, responsive (copy paste)
 				+ meta name = robots : index,follow -> google co vao trang web xem ko
 				+ meta theme-color: Mau cua thanh tabar tren web
 				+ name="description" : Hien thi luc client search google
 				+ property='og:image',property="og:url" : link fb khi share
+			- the link:
+				+ link icon-> icon gan tieu de trang web
+				+ link rel:relation,type=text\css -> DUng de lien ket voi css
 
 
-		+ The body dong mo
+		(+) The body dong mo
+			- Tieu de:
+				+ h1 : rat quan trong (Dung cho logo...) => De gg danh gia
+				+ h2,h3,h4,h5,h6
+			- The p:
+				chua doan van trong html
+			- The a:
+				co thuoc tinh href="" => co the click den 1 file moi
+			- The ul,ol,li: => Hien thi cac danh sach
+				+ ul: unoderlist, ol: oderlist
+					<li></li>
+			- The img:
+				+ chu y duong dan  : ../ <=> back ve mot thu muc
+				+ alt: ten thay the neu load bi loi
+				+ nen dong lai the don img <img/>
+			- The div: (Quan trong nhat)
+				+ boc mot vung lai: (Trong do co p,h,img...)
+			- the br xuong hang chua het y la sai => nen su dung div
+			- the span: Dung trong cau nhung chi chon 1 doan, de khong lam dan doan y nghia cua cau
+
+
+			- Cac the khac: Giong the div(tao vung) nhung cac vung co y nghia
+				+ header: thuong dung trong de muc ban dau (gom tieu de,logo...)
+				+ section: thuong dat cac bai viet..
+				+ sidebar: vung ben canh
+				+ footer: vung chua cuoi cung cua trang web
+
+			- Form: La vung de gui du lieu khi bam submit
+				+ input:
+					Type: - text
+						  - password
+						  - email
+						  - button
+						  - submit => html5: dung <button type="submit"></button> de thay the
+						  - reset
+						  - checkbox
+				+ select:
+					option 1:
+					option 2:
+					...
+				+label: Nhan
+			
+			-------------------------------------------------------
+			- Cac the it dung khac
+				+super
+				+hr
+				+br
+
+PHAN CHIA CAC THE:
+	+ Cac the hien thi noi dung:
+		h,p,a,img,li,span..
+	+ Cac the dung bao boc(layout tags):
+		div,form,ul,ol,header,footer,sidebar,section...
+	=> Cac the giao dien khong duoc nam trong the noi dung
+	=> Cac the giao dien co the nam trong nhau
+
+INLINE AND BLOCK:
+
+	+ Block la dang khoi: minh no nam tren 1 dong
+		- div,p,h,form,ul,li,ol
+	+ Inline la tren dong: nam cung dong voi cac the khac
+		- a,img,span,button,input,select...
+	=> Thanh phan block khong the nam trong inline
