@@ -79,3 +79,84 @@ INLINE AND BLOCK:
 	+ Inline la tren dong: nam cung dong voi cac the khac
 		- a,img,span,button,input,select...
 	=> Thanh phan block khong the nam trong inline
+
+******************************************************************************
+						BUOI 2: BAT DAU VOI CSS
+
+
+CSS => Lam cho giao dien trang web dep hon
+
+1.Mo hinh box trong css
+	+ margin: khoang cach giua cac element
+	+ padding: khoang cach tu content di ra
+	+ border: Duong vien
+2.Selector:
+	- ten cua the
+	- id  (#[ten id]) => duy nhat cho 1 the duoc danh dau css.
+	- class (.[tenClass])=> cac the muon co css chung, dung cho nhieu elements.
+	- chon con truc tiep dung (>)
+	- chon tong hop(va): viet lien nhau
+	- chon 2 loai cung luc(hoac): cach nhau dau phay
+	- chon dua tren property: tag[property= ]
+	- first-child,last-child,nth-child(n),nth-child(odd),nth-child(even)...
+
+3. Reset Css
+ => Lam cho cac trinh duyet ve trang thai giong nhau
+ *{
+ 	margin:0; -> Cac element xep sat nhau
+ 	padding:0; -> tat ca cac element khong co padding
+ 	box-sizing ->
+ }
+
+4. 5 thuoc tinh quan trong nhat cua CSS
+
+	- width: Phai chu y den box-sizing,
+	- height: Cung phu thuoc vao box-sizing,
+	- padding: khoang cach giua duong vien va noi dung ben trong,
+		+ viet 1 gia tri: 4 huong,
+		+ viet 2 gia tri  (tren va duoi, trai va phai),
+		+ viet 4 gia tri: tren phai duoi trai,
+		+ padding-left,padding-right,padding-bottom,padding-top
+
+	- margin:
+	- border:
+	- box-sizing:
+		+ border-box(Nen dung)
+			with tinh tu border vao:
+				with = content+padding+border
+		+ content-box
+			with tinh moi phan content
+				=> no ra neu them padding,margin,border
+
+
+
+************************************************************
+					BUOI 3- 
+
+Don vi tinh: %,px
+Mac dinh cua cac trinh duyet thi cac thanh phan sap xep tu tren xuong duoi, tu trai sang pha
+1. Aligment:
+	- Cac thanh phan block:
+		+ Can trai: margin-right:auto (mac dinh)
+		+ Can phai: margin-left: auto
+		+ Can giua: margin
+
+	- Cac thanh phan inline (xep tren 1 hang giong text) -> khong dung margin auto de can chinh
+		+ text-align cho thanh phan cha:
+			- left,right,center
+
+2. Display: block, inline,inline-block
+(block giong ban co, inline- giong cac o chua cac quan co)
+	- mot block element: ta co the dat chieu rong, chieu cao
+	- mot inline element: 
+		+ doi xu nhu text,nen khong the dat chieu rong, chieu cao
+		+ chieu cao co the su dung font-size
+		+ chieu rong bang noi dung ben trong
+		+ co do cao dong: line-height
+	- inline-block element
+		+ co the xet chieu rong,chieu cao
+
+------------------------------
+3. FLEX LAYOUT
+
++ 

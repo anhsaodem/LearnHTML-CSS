@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+p{
+	padding: 10px;
+	margin: 20px;
+	border: 1px solid red;
+	color: black;
+}
+#hello-world{
+	background-color: green;
+}
+.student.male{
+	color: red;
+	background-color: yellow;
+}
+.male{
+	
+}
+#menu li{
+font-size: 28px;
+}
+#menu li a{
+	color: #64a24a;
+	
+}
+input[type="text"]{
+	background-color: red;
+}
+li:first-child{
+	color: red;
+}
+
+p.propertyElement{
+	padding: 30px;
+}

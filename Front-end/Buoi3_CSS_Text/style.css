@@ -1,0 +1,35 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+#cha{
+	border: 1px solid green;
+	min-height: 200px;
+
+}
+#con{
+	width: 500px;
+	min-height: 100px;
+	background-color: red;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin: auto auto;
+}
+
+#outer{
+	border: 1px solid black;
+	text-align: right;
+}
+#flex-box{
+	margin-top: 20px;
+	border: 1px solid black;
+	display: flex;
+}
+#flex-box div{
+	border: 1px solid green;
+}
+
+#ele1,#ele2{
+	flex-grow: 1;
+}
